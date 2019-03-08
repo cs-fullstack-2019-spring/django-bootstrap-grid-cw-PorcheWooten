@@ -1,0 +1,21 @@
+{% extends 'PageApp/base.html' %}
+{% load static %}
+{% block content %}
+<body class="container">
+<header>
+    <p class="page" style="width: 300px; height:30px;">Page</p>
+    <h1 class="number" style="width: 275px">Four</h1>
+</header>
+<article>
+    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikali, but the Little Blind Test didnt listen.</p>
+    <p>She packed her seven versalia, put initial into the belt and made herself on the way.</p>
+    <p>When she reached the first hills of the Italic Mountains, she had a last view back on the way.</p>
+
+</article>
+
+<footer>
+    <a href="{% url 'page3' %}"><button>Previous</button></a>
+    <button>Next</button>
+</footer>
+</body>
+{% endblock content %}
